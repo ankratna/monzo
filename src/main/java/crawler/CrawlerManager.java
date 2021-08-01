@@ -12,9 +12,7 @@ import org.slf4j.LoggerFactory;
 import util.CrawlerUtils;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.*;
 
 public class CrawlerManager {
@@ -136,7 +134,7 @@ public class CrawlerManager {
 			 */
 			Document document = Jsoup.connect(url).get();
 			Elements linksOnPage = document.select("a[href]");
-			List<String> links = new ArrayList<>();
+			Set<String> links = new HashSet<>();
 			/*
 			 * Iterate over all elements
 			 */
@@ -163,8 +161,9 @@ public class CrawlerManager {
 					/*
 					 * If it's not in the queue, create a new page and add it
 					 */
-					if (CrawlerUtils.isSameDomain(linkURL, url)
-							&& queue.stream().map(Page::getUrl).noneMatch(linkURL::equals)) {
+					if (!visited.contains(linkURL)
+							&&CrawlerUtils.isSameDomain(linkURL, url)
+							/*&& queue.stream().map(Page::getUrl).noneMatch(linkURL::equals)*/) {
 						Page linkedPage = new Page();
 						linkedPage.setUrl(linkURL);
 						queue.add(linkedPage);

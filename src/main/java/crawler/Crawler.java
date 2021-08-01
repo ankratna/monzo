@@ -14,7 +14,9 @@ import util.CrawlerUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.BlockingQueue;
 
 public class Crawler implements Runnable {
@@ -73,7 +75,7 @@ public class Crawler implements Runnable {
 			 */
 			Document document = Jsoup.connect(page.getUrl()).get();
 			Elements linksOnPage = document.select("a[href]");
-			List<String> links = new ArrayList<>();
+			Set<String> links = new HashSet<>();
 			/*
 			 * Iterate over all elements
 			 */
@@ -100,8 +102,8 @@ public class Crawler implements Runnable {
 					/*
 					 * If it's not in the queue, create a new page and add it
 					 */
-					if (queue.stream().map(Page::getUrl).noneMatch(linkURL::equals)
-							&& CrawlerUtils.isSameDomain(linkURL, firstURL) && !visited.contains(linkURL)) {
+					if (!visited.contains(linkURL)
+							&& CrawlerUtils.isSameDomain(linkURL, firstURL)) {
 						Page linkedPage = new Page();
 						linkedPage.setUrl(linkURL);
 						queue.add(linkedPage);
