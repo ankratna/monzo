@@ -25,7 +25,7 @@ public class WebCrawlerApp {
 		String args[] = new String[4];
 		args[0] = "https://monzo.com";
 		args[1] = "20";
-		args[2] = "false";
+		args[2] = "true";
 		args[3] = "true";
 		if (args.length < 3) {
 			LOG.error(
@@ -80,12 +80,12 @@ public class WebCrawlerApp {
 		LOG.info("Generating HTML file with the results");
 
 
-		for(Page page : sitemap.getPages())
+	/*	for(Page page : sitemap.getPages())
 		{
 			System.out.println("key: "+page.getUrl());
 			System.out.println("values: "+page.getLinks().toString());
 			System.out.println("-----");
-		}
+		}*/
 	//	HTMLHandler.resultToHTML(sitemap, url);
 
 		LOG.info("Generated results.html with the result!");

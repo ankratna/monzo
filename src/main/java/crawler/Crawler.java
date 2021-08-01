@@ -48,23 +48,36 @@ public class Crawler implements Runnable {
 		this.showLog = showLog;
 	}
 
-	public void run() {
+	public void run()  {
 		/*
 		 * While the queue is not empty, poll the element from the head of the queue,
 		 * add it to the visited list, and crawl it to get its links
 		 */
 		while (!queue.isEmpty()) {
-			Page page = queue.poll();
-			/*
-			 * Check if it's been visited already. If it hasn't, crawl it
-			 */
-			if (!visited.contains(page.getUrl())) {
-				visited.add(page.getUrl());
-				crawl(page);
+			// System.out.println("Size before take : "+queue.size());
+		//	System.out.println("before qs: "+queue.size());
+			try {
+				Page page = queue.take();
+			//	System.out.println("after qs: " + queue.size());
+				/*
+				 * Check if it's been visited already. If it hasn't, crawl it
+				 */
+				if (!visited.contains(page.getUrl())
+						&& queue.stream().map(Page::getUrl).noneMatch(page.getUrl()::equals)
+						) {
+					visited.add(page.getUrl());
+					crawl(page);
+				}
 			}
-
+			catch (Exception e){
+				System.out.println("Size before exception take : "+queue.size());
+				System.out.println("inside exception run : "+e.getMessage());
+			}
+		//	System.out.println("in progress");
+		//	System.out.println("queue size: "+queue.size());
+		//	System.out.println("visited size: "+visited.size());
 		}
-	//	System.out.println("done");
+		System.out.println("done");
 	}
 
 	private void crawl(Page page) {
@@ -103,7 +116,9 @@ public class Crawler implements Runnable {
 					 * If it's not in the queue, create a new page and add it
 					 */
 					if (!visited.contains(linkURL)
-							&& CrawlerUtils.isSameDomain(linkURL, firstURL)) {
+							&& CrawlerUtils.isSameDomain(linkURL, firstURL)
+					&& queue.stream().map(Page::getUrl).noneMatch(linkURL::equals)) {
+					//	System.out.println("adding in queue : "+linkURL);
 						Page linkedPage = new Page();
 						linkedPage.setUrl(linkURL);
 						queue.add(linkedPage);

@@ -101,11 +101,13 @@ public class CrawlerManager {
 		try {
 
 			CompletableFuture.allOf(futures).join();
+			System.out.println("all threads finish succcessfully");
 		}
 		catch (Exception e){
 			for(CompletableFuture<?> future : futures){
 				System.out.println(future+" "+future.isDone() + " " + future.toString());
 			}
+			System.out.println("size of queue: "+queue.size());
 			System.out.println(e.getMessage());
 			System.out.println(e.getCause().toString());
 		}
@@ -163,7 +165,7 @@ public class CrawlerManager {
 					 */
 					if (!visited.contains(linkURL)
 							&&CrawlerUtils.isSameDomain(linkURL, url)
-							/*&& queue.stream().map(Page::getUrl).noneMatch(linkURL::equals)*/) {
+							&& queue.stream().map(Page::getUrl).noneMatch(linkURL::equals)) {
 						Page linkedPage = new Page();
 						linkedPage.setUrl(linkURL);
 						queue.add(linkedPage);
