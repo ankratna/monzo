@@ -18,6 +18,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.TimeUnit;
 
 public class Crawler implements Runnable {
 
@@ -57,7 +58,8 @@ public class Crawler implements Runnable {
 			// System.out.println("Size before take : "+queue.size());
 		//	System.out.println("before qs: "+queue.size());
 			try {
-				Page page = queue.take();
+				System.out.println("qs: "+queue.size());
+				Page page = queue.poll();
 			//	System.out.println("after qs: " + queue.size());
 				/*
 				 * Check if it's been visited already. If it hasn't, crawl it
@@ -121,7 +123,9 @@ public class Crawler implements Runnable {
 					//	System.out.println("adding in queue : "+linkURL);
 						Page linkedPage = new Page();
 						linkedPage.setUrl(linkURL);
-						queue.add(linkedPage);
+
+							queue.add(linkedPage);
+
 					}
 
 					/*

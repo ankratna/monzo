@@ -6,6 +6,7 @@ import model.Sitemap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import util.CrawlerUtils;
+import util.HTMLHandler;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -86,7 +87,7 @@ public class WebCrawlerApp {
 			System.out.println("values: "+page.getLinks().toString());
 			System.out.println("-----");
 		}*/
-	//	HTMLHandler.resultToHTML(sitemap, url);
+		HTMLHandler.resultToHTML(sitemap, url);
 
 		LOG.info("Generated results.html with the result!");
 

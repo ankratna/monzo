@@ -1,3 +1,4 @@
+/*
 
 import crawler.WebCrawlerApp;
 import exception.CrawlerCustomException;
@@ -33,14 +34,16 @@ public class WebCrawlerAppTest {
 	
 	@Test
 	public void isSameDomainTest() {
-		/*String url = "https://monzo.com";
+		*/
+/*String url = "https://monzo.com";
 		String linkUrl = "https://monzo.com/blog/";
 		CrawlerUtils.isSameDomain(linkUrl, url);
 
 		url = "https://www.monzo.com";
 		linkUrl = "https://www.monzo.com/blog/";
 		CrawlerUtils.isSameDomain(linkUrl, url);
-*/
+*//*
+
 		String url = "https://www.monzo.com";
 		String linkUrl = "https://en.wikipedia.org/wiki/Robots_exclusion_standard";
 		CrawlerUtils.isSameDomain(linkUrl, url);
@@ -58,3 +61,4 @@ public class WebCrawlerAppTest {
 	}
 
 }
+*/
