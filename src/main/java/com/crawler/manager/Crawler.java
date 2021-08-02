@@ -1,4 +1,4 @@
-package com.crawler.crawlerManager;
+package com.crawler.manager;
 
 
 import com.crawler.model.Page;

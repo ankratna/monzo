@@ -1,4 +1,4 @@
-package com.crawler.crawlerManager;
+package com.crawler.manager;
 
 import com.crawler.model.Page;
 import com.crawler.model.Sitemap;
@@ -66,8 +66,8 @@ public class CrawlerManager {
 		 */
 		startListAndQueue(url);
 
-		/*Crawler com.crawler.crawlerManager = new Crawler(url, sitemap, visited, queue, disallowedURLs, showLog);
-		Thread th1 = new Thread(com.crawler.crawlerManager);
+		/*Crawler com.crawler.manager = new Crawler(url, sitemap, visited, queue, disallowedURLs, showLog);
+		Thread th1 = new Thread(com.crawler.manager);
 		th1.run();*/
 
 

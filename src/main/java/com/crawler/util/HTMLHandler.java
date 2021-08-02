@@ -13,7 +13,6 @@ import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Objects;
 
 public class HTMLHandler {
 
@@ -26,12 +25,8 @@ public class HTMLHandler {
 		String htmlString = null;
 
 		try {
-			System.out.println("ip1");
 			inputStream = WebCrawlerApp.class.getResourceAsStream("/template.html");
-			System.out.println("ip2");
-			System.out.println(Objects.nonNull(inputStream));
 			htmlString = IOUtils.toString(inputStream, Charset.defaultCharset());
-			System.out.println("ip3");
 		} catch (IOException e) {
 			LOG.error("Could not find HTML template!");
 		}
