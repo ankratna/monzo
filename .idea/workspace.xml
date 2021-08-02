@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17253db5-8c0c-43a1-954c-b8955e0b0bd2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/HTMLHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/WebCrawlerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/WebCrawlerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/Crawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/CrawlerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/CrawlerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/RobotsParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/WebCrawlerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exception/CrawlerCustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/exception/CrawlerCustomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/model/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Sitemap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/model/Sitemap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/CrawlerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/util/CrawlerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/HTMLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/util/HTMLHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WebCrawlerAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebCrawlerAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/Crawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/Crawler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/CrawlerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/crawler/WebCrawlerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/crawler/WebCrawlerApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/CrawlerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/CrawlerUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crawler/Crawler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crawler/CrawlerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crawler/RobotsParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/crawler/WebCrawlerApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exception/CrawlerCustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Sitemap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/CrawlerUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/HTMLHandler.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/monzo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/monzo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WebCrawlerAppTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,22 +41,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="486">
+              <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CrawlerManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawler/CrawlerManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/CrawlerManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            <state relative-caret-position="311">
+              <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrawlerUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/CrawlerUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-125">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebCrawlerApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,47 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrawlerUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/CrawlerUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebCrawlerApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawler/WebCrawlerApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="87" column="39" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebCrawlerAppTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WebCrawlerAppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockingQueue.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-261">
-              <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HTMLHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/HTMLHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/HTMLHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+            <state relative-caret-position="321">
+              <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +94,44 @@
       <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="420">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reader.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/io/Reader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar!/org/apache/commons/io/IOUtils.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="871" selection-start-line="871" selection-end-line="871" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputStreamReader.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="2386" column="19" selection-start-line="2386" selection-start-column="19" selection-end-line="2386" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -150,13 +176,17 @@
         <option value="$PROJECT_DIR$/src/main/java/CrawlerMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/WebCrawlerApp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/util/CrawlerUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/crawler/CrawlerManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebCrawlerAppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawler/WebCrawlerApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/HTMLHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawler/WebCrawlerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/CrawlerUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/CrawlerManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/Crawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crawler/util/HTMLHandler.java" />
       </list>
     </option>
   </component>
@@ -232,22 +262,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,30 +273,6 @@
             </path>
             <path>
               <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -295,13 +285,6 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
@@ -313,20 +296,27 @@
             <path>
               <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-validator:commons-validator:1.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-validator:commons-validator:1.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-validator-1.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: commons-io:commons-io:2.6" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-validator:commons-validator:1.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-validator-1.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="routines" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: commons-io:commons-io:2.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-io-2.6.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: commons-io:commons-io:2.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="commons-io-2.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -339,9 +329,16 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28275862" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/crawler" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="util" />
       <recent name="" />
@@ -349,6 +346,8 @@
       <recent name="crawler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/crawler/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/model" />
       <recent name="$PROJECT_DIR$/src/main/java/crawler" />
@@ -373,7 +372,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="WebCrawlerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crawler.WebCrawlerApp" />
+      <option name="MAIN_CLASS_NAME" value="com.crawler.WebCrawlerApp" />
       <module name="monzo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -490,15 +489,16 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32960597" />
-      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.21246007" />
+      <window_info anchor="right" id="Run" order="8" weight="0.39456868" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32892057" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20394036" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18317358" />
       <window_info id="Project Explorer" order="2" weight="0.32960597" />
       <window_info id="Job Explorer" order="2" weight="0.32960597" />
       <window_info anchor="bottom" id="Console" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -510,8 +510,38 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Console" order="10" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Run" order="8" weight="0.3567625" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18317358" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Project Explorer" order="4" weight="0.32960597" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299389" />
+      <window_info id="Job Explorer" order="6" weight="0.32960597" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3988604" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32892057" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.3299389" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32960597" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -549,41 +579,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="72" column="57" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/CrawlerManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/CrawlerManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1674">
           <caret line="106" column="55" lean-forward="true" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/CrawlerUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/CrawlerUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/WebCrawlerApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
           <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/RobotsParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/RobotsParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
@@ -593,7 +620,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Sitemap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/model/Sitemap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -603,7 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/model/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
@@ -631,24 +658,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="104" column="53" lean-forward="true" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/CrawlerUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/CrawlerUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/WebCrawlerApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
@@ -666,7 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/RobotsParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/RobotsParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
@@ -683,13 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/CrawlerManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/CrawlerManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2560">
           <caret line="175" column="39" lean-forward="true" selection-start-line="175" selection-start-column="39" selection-end-line="175" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,7 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exception/CrawlerCustomException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/exception/CrawlerCustomException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -737,7 +758,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Sitemap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/model/Sitemap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -747,20 +768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/model/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/RobotsParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,32 +814,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/CrawlerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/CrawlerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/target/classes/template.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WebCrawlerAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -837,34 +824,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/WebCrawlerApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/RobotsParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="87" column="39" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+        <state relative-caret-position="920">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/CrawlerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/CrawlerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar!/org/apache/commons/io/IOUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="871" selection-start-line="871" selection-end-line="871" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/io/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
+        <state relative-caret-position="311">
           <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/template.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="420">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/HTMLHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        <state relative-caret-position="1700">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="2386" column="19" selection-start-line="2386" selection-start-column="19" selection-end-line="2386" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/HTMLHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

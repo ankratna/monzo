@@ -1,4 +1,4 @@
-package model;
+package com.crawler.model;
 
 import lombok.Getter;
 

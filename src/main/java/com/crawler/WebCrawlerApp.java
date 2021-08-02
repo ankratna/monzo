@@ -1,12 +1,12 @@
-package crawler;
+package com.crawler;
 
-import exception.CrawlerCustomException;
-import model.Page;
-import model.Sitemap;
+import com.crawler.crawlerManager.CrawlerManager;
+import com.crawler.exception.CrawlerCustomException;
+import com.crawler.model.Sitemap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import util.CrawlerUtils;
-import util.HTMLHandler;
+import com.crawler.util.CrawlerUtils;
+import com.crawler.util.HTMLHandler;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -67,15 +67,11 @@ public class WebCrawlerApp {
 		/*
 		 * Create the list of disallowed URLs if the argument is true
 		 */
-		List<String> disallowedURLs = new ArrayList<>();
-		if (useRobots)
-			disallowedURLs = RobotsParser.checkRobotsTxt(url);
-		System.out.println("Robots List : "+disallowedURLs);
 
 		/*
 		 * Create a new Crawler Manager and call the startCrawling method
 		 */
-		CrawlerManager crawlerManager = new CrawlerManager(url, n, disallowedURLs, sitemap, showLog);
+		CrawlerManager crawlerManager = new CrawlerManager(url, n, sitemap, showLog);
 		Sitemap sitemap = crawlerManager.startCrawling();
 
 		LOG.info("Generating HTML file with the results");

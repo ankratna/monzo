@@ -1,4 +1,4 @@
-package util;
+package com.crawler.util;
 
 import org.apache.commons.validator.routines.UrlValidator;
 import org.slf4j.Logger;
@@ -8,11 +8,16 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 /*
- * Class containing util methods used along the application
+ * Class containing com.crawler.util methods used along the application
  */
 public class CrawlerUtils {
 
 	private static final Logger LOG = LoggerFactory.getLogger(CrawlerUtils.class);
+
+	/*parse the given input and the com.crawler.crawlerManager object*/
+
+
+
 
 	/*
 	 * This method compares the hostname of two URLs. Ignores wether they start with
@@ -27,8 +32,8 @@ public class CrawlerUtils {
 
 			 // Delete the trailing www. if exists
 
-		//	System.out.println("linkurl :"+linkUrl);
-	//		System.out.println("url: "+url);
+			System.out.println("linkurl :"+linkUrl);
+			System.out.println("url: "+url);
 			String linkUriString = linkURI.getHost().startsWith("www.") ? linkURI.getHost().substring(4)
 					: linkURI.getHost();
 			String uriString = uri.getHost().startsWith("www.") ? uri.getHost().substring(4) : uri.getHost();
@@ -55,5 +60,7 @@ public class CrawlerUtils {
 		UrlValidator urlValidator = new UrlValidator();
 		return urlValidator.isValid(url);
 	}
+
+
 
 }

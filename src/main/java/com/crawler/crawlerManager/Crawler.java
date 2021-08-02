@@ -1,8 +1,8 @@
-package crawler;
+package com.crawler.crawlerManager;
 
 
-import model.Page;
-import model.Sitemap;
+import com.crawler.model.Page;
+import com.crawler.model.Sitemap;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -10,15 +10,13 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import util.CrawlerUtils;
+import com.crawler.util.CrawlerUtils;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.TimeUnit;
 
 public class Crawler implements Runnable {
 
@@ -32,20 +30,19 @@ public class Crawler implements Runnable {
 
 	private final Sitemap sitemap;
 
-	private final List<String> disallowedURLs;
+
 
 	private final Boolean showLog;
 
 	/*
 	 * Constructor
 	 */
-	public Crawler(String url, Sitemap s, List<String> visited, BlockingQueue<Page> queue, List<String> disallowedURLs,
+	public Crawler(String url, Sitemap s, List<String> visited, BlockingQueue<Page> queue,
 			Boolean showLog) {
 		this.firstURL = url;
 		this.sitemap = s;
 		this.queue = queue;
 		this.visited = visited;
-		this.disallowedURLs = disallowedURLs;
 		this.showLog = showLog;
 	}
 
@@ -72,8 +69,8 @@ public class Crawler implements Runnable {
 				}
 			}
 			catch (Exception e){
-				System.out.println("Size before exception take : "+queue.size());
-				System.out.println("inside exception run : "+e.getMessage());
+				System.out.println("Size before com.crawler.exception take : "+queue.size());
+				System.out.println("inside com.crawler.exception run : "+e.getMessage());
 			}
 		//	System.out.println("in progress");
 		//	System.out.println("queue size: "+queue.size());
@@ -113,7 +110,6 @@ public class Crawler implements Runnable {
 				 * Check if the current URL is in the disallowed list, if they belong to the
 				 * same domain, if it hasn't been visited and if it's not already in the queue
 				 */
-				if (disallowedURLs.stream().noneMatch(linkURL::startsWith)) {
 					/*
 					 * If it's not in the queue, create a new page and add it
 					 */
@@ -136,7 +132,7 @@ public class Crawler implements Runnable {
 			//	System.out.println("linkurl: "+linkURL);
 
 				}
-			}
+
 			/*
 			 * Add page to sitemap
 			 */

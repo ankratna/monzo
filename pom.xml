@@ -82,7 +82,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>crawler.WebCrawlerApp</mainClass>
+                            <mainClass>com.crawler.WebCrawlerApp</mainClass>
                         </manifest>
 
                     </archive>

@@ -1,4 +1,4 @@
-package exception;
+package com.crawler.exception;
 
 public class CrawlerCustomException extends RuntimeException {
 

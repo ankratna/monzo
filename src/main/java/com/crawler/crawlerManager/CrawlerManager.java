@@ -1,7 +1,7 @@
-package crawler;
+package com.crawler.crawlerManager;
 
-import model.Page;
-import model.Sitemap;
+import com.crawler.model.Page;
+import com.crawler.model.Sitemap;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -9,7 +9,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import util.CrawlerUtils;
+import com.crawler.util.CrawlerUtils;
 
 import java.io.IOException;
 import java.util.*;
@@ -31,14 +31,12 @@ public class CrawlerManager {
 
 	private int numberOfThreads;
 
-	private List<String> disallowedURLs;
-
 	private Boolean showLog;
 
 	/*
 	 * Constructor
 	 */
-	public CrawlerManager(String url, int numberOfThreads, List<String> disallowedURLs, Sitemap sitemap,
+	public CrawlerManager(String url, int numberOfThreads, Sitemap sitemap,
 			Boolean showLog) {
 		/*
 		 * Create a new executor with a pool with the number of threads provided
@@ -52,7 +50,6 @@ public class CrawlerManager {
 		this.visited = Collections.synchronizedList(new ArrayList<>());
 		this.url = url;
 		this.numberOfThreads = numberOfThreads;
-		this.disallowedURLs = disallowedURLs;
 		this.sitemap = sitemap;
 		this.showLog = showLog;
 	}
@@ -69,8 +66,8 @@ public class CrawlerManager {
 		 */
 		startListAndQueue(url);
 
-		/*Crawler crawler = new Crawler(url, sitemap, visited, queue, disallowedURLs, showLog);
-		Thread th1 = new Thread(crawler);
+		/*Crawler com.crawler.crawlerManager = new Crawler(url, sitemap, visited, queue, disallowedURLs, showLog);
+		Thread th1 = new Thread(com.crawler.crawlerManager);
 		th1.run();*/
 
 
@@ -80,7 +77,7 @@ public class CrawlerManager {
 
 		List<Runnable> runnables = new ArrayList<>();
 		for (int i = 0; i < numberOfThreads; i++) {
-			runnables.add(new Crawler(url, sitemap, visited, queue, disallowedURLs, showLog));
+			runnables.add(new Crawler(url, sitemap, visited, queue, showLog));
 		}
 
 
@@ -159,7 +156,7 @@ public class CrawlerManager {
 				 * Check if the current URL is in the disallowed list, if they belong to the
 				 * same domain, and if it's not already in the queue
 				 */
-				if (disallowedURLs.stream().noneMatch(linkURL::startsWith)) {
+
 					/*
 					 * If it's not in the queue, create a new page and add it
 					 */
@@ -179,7 +176,7 @@ public class CrawlerManager {
 
 				}
 
-			}
+
 			/*
 			 * Add page to sitemap
 			 */

@@ -1,35 +1,35 @@
 /*
 
-import crawler.WebCrawlerApp;
-import exception.CrawlerCustomException;
+import com.crawler.WebCrawlerApp;
+import com.crawler.exception.CrawlerCustomException;
 import org.junit.Test;
-import util.CrawlerUtils;
+import com.crawler.util.CrawlerUtils;
 
 public class WebCrawlerAppTest {
 
 	@Test(expected = CrawlerCustomException.class)
 	public void notEnoughArguments() throws CrawlerCustomException {
 		String[] args = { "argument" };
-		WebCrawlerApp.main(args);
+		com.crawler.WebCrawlerApp.main(args);
 	}
 
 	@Test(expected = CrawlerCustomException.class)
 	public void wrongUrl() throws CrawlerCustomException {
 		String[] args = { "wrongurl", "5", "true" };
-		WebCrawlerApp.main(args);
+		com.crawler.WebCrawlerApp.main(args);
 	}
 
 	@Test(expected = CrawlerCustomException.class)
 	public void wrongNumberOfThreads() {
 		String[] args = { "https://monzo.com", "-5", "true" };
-		WebCrawlerApp.main(args);
+		com.crawler.WebCrawlerApp.main(args);
 	}
 
 	@Test
 	public void testUrlTest() {
 		String url = "https://adaral.github.io";
 		String[] args = { url, "2", "true" };
-		WebCrawlerApp.main(args);
+		com.crawler.WebCrawlerApp.main(args);
 	}
 	
 	@Test
