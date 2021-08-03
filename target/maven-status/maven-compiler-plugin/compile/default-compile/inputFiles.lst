@@ -4,8 +4,8 @@
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/manager/CrawlerTask.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/WebCrawlerApp.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/model/Page.java
-/Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/manager/BfsCrawler.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/manager/Crawler.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/util/CrawlerUtils.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/model/InputArguments.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/util/HTMLHandler.java
+/Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/manager/BasicCrawler.java

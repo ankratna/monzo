@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17253db5-8c0c-43a1-954c-b8955e0b0bd2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crawler/manager/BfsCrawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/crawler/util/CrawlerUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crawler/WebCrawlerAppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crawler/manager/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/manager/Crawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawl-result.html" beforeDir="false" afterPath="$PROJECT_DIR$/crawl-result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crawler/manager/BfsCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/manager/BasicCrawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crawler/util/CrawlerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/util/CrawlerUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crawler/util/HTMLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/util/HTMLHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebCrawlerAppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crawler/util/CrawlerUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crawler/util/CrawlerUtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/WebCrawlerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crawler/WebCrawlerApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/crawlerManager/Crawler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/crawlerManager/CrawlerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/manager/BfsCrawler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/manager/CrawlerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crawler/manager/CrawlerManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/util/CrawlerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crawler/util/CrawlerUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/util/HTMLHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crawler/util/HTMLHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/monzo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/monzo-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/monzo-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/crawler/util/CrawlerUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/crawler/util/CrawlerUtilsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,8 +31,8 @@
       <file leaf-file-name="CrawlerTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+            <state relative-caret-position="464">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrawlerManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CrawlerManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+            <state relative-caret-position="442">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +55,8 @@
       <file leaf-file-name="WebCrawlerApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+            <state relative-caret-position="620">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,6 +72,39 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicCrawler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/manager/BasicCrawler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="97" selection-start-line="24" selection-start-column="97" selection-end-line="24" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrawlerUtilsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/crawler/util/CrawlerUtilsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebCrawlerAppTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/crawler/WebCrawlerAppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -137,15 +161,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/CrawlerManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/crawlerManager/Crawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/model/InputArguments.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/util/HTMLHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crawler/manager/BfsCrawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/manager/Crawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerManager.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/util/CrawlerUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crawler/manager/BfsCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crawler/util/CrawlerUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/crawler/WebCrawlerAppTest.java" />
       </list>
     </option>
   </component>
@@ -228,6 +253,14 @@
               <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
               <item name="monzo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monzo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,6 +269,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monzo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
@@ -249,6 +290,35 @@
               <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
               <item name="monzo" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,6 +336,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.crawler" />
       <recent name="com.crawler.util" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -304,7 +375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CrawlerUtilsTest">
+  <component name="RunManager" selected="JUnit.WebCrawlerAppTest.main">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -331,7 +402,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CrawlerUtilsTest.inValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CrawlerUtilsTest.isSameDomainExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="monzo" />
       <extension name="coverage">
         <pattern>
@@ -343,30 +414,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.crawler.util" />
       <option name="MAIN_CLASS_NAME" value="com.crawler.util.CrawlerUtilsTest" />
-      <option name="METHOD_NAME" value="inValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CrawlerUtilsTest.isSameDomain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="monzo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crawler.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.crawler.util" />
-      <option name="MAIN_CLASS_NAME" value="com.crawler.util.CrawlerUtilsTest" />
-      <option name="METHOD_NAME" value="isSameDomain" />
+      <option name="METHOD_NAME" value="isSameDomainExceptionTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -423,6 +471,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="WebCrawlerAppTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="monzo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.crawler" />
+      <option name="MAIN_CLASS_NAME" value="com.crawler.WebCrawlerAppTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -463,18 +534,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CrawlerUtilsTest" />
-      <item itemvalue="JUnit.CrawlerUtilsTest.inValid" />
-      <item itemvalue="JUnit.CrawlerUtilsTest.isSameDomain" />
       <item itemvalue="JUnit.CrawlerUtilsTest.notSameDomain" />
       <item itemvalue="JUnit.CrawlerUtilsTest.sanatizeUrl" />
+      <item itemvalue="JUnit.CrawlerUtilsTest.isSameDomainExceptionTest" />
+      <item itemvalue="JUnit.WebCrawlerAppTest.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebCrawlerAppTest.main" />
+        <item itemvalue="JUnit.CrawlerUtilsTest.isSameDomainExceptionTest" />
         <item itemvalue="JUnit.CrawlerUtilsTest" />
         <item itemvalue="JUnit.CrawlerUtilsTest.sanatizeUrl" />
         <item itemvalue="JUnit.CrawlerUtilsTest.notSameDomain" />
-        <item itemvalue="JUnit.CrawlerUtilsTest.isSameDomain" />
-        <item itemvalue="JUnit.CrawlerUtilsTest.inValid" />
       </list>
     </recent_temporary>
   </component>
@@ -492,12 +563,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrawlerUtilsTest_notSameDomain - 2021.08.03 at 09h 52m 47s.xml">
-      <configuration name="CrawlerUtilsTest.notSameDomain" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CrawlerUtilsTest - 2021.08.03 at 09h 52m 52s.xml">
-      <configuration name="CrawlerUtilsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CrawlerUtilsTest_sanatizeUrl - 2021.08.03 at 09h 53m 57s.xml">
       <configuration name="CrawlerUtilsTest.sanatizeUrl" configurationId="JUnit" />
     </history-entry>
@@ -522,6 +587,12 @@
     <history-entry file="CrawlerUtilsTest - 2021.08.03 at 09h 55m 28s.xml">
       <configuration name="CrawlerUtilsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CrawlerUtilsTest_isSameDomainExceptionTest - 2021.08.03 at 10h 22m 52s.xml">
+      <configuration name="CrawlerUtilsTest.isSameDomainExceptionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebCrawlerAppTest_main - 2021.08.03 at 10h 25m 56s.xml">
+      <configuration name="WebCrawlerAppTest.main" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-50" width="1920" height="1080" extended-state="0" />
@@ -540,7 +611,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.49185336" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2827476" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2827476" />
       <window_info id="Project Explorer" order="2" weight="0.32960597" />
       <window_info id="Job Explorer" order="2" weight="0.32960597" />
       <window_info anchor="bottom" id="Console" order="10" />
@@ -598,13 +669,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47720">
-          <caret line="2386" column="19" selection-start-line="2386" selection-start-column="19" selection-end-line="2386" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/HTMLHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -776,31 +840,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11766">
           <caret line="269" column="10" selection-start-line="269" selection-start-column="7" selection-end-line="269" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-261">
-          <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -864,16 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/manager/BfsCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/model/InputArguments.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -915,30 +948,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="718">
+          <caret line="179" column="45" selection-start-line="179" selection-start-column="45" selection-end-line="179" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crawler/util/CrawlerUtilsTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="464">
+          <caret line="143" column="40" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/manager/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/manager/BasicCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="97" selection-start-line="24" selection-start-column="97" selection-end-line="24" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -955,10 +999,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerTask.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crawler/util/CrawlerUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        <state relative-caret-position="480">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -967,11 +1011,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        <state relative-caret-position="442">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crawler/WebCrawlerAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

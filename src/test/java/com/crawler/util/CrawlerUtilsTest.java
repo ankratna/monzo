@@ -19,6 +19,12 @@ public class CrawlerUtilsTest {
     }
 
     @Test
+    public void isSameDomainExceptionTest() {
+        String url = "http://monzo.com/h?s=^IXIC";
+        CrawlerUtils.isSameDomain(url, url);
+    }
+
+    @Test
     public void valid() {
         boolean expected = CrawlerUtils.isURLValid("https://monzo.com");
         Assert.assertEquals(expected,true);

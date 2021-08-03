@@ -40,12 +40,12 @@ public class CrawlerManager {
         visited.add(url);
 
         /*Step1 : Get All the source link from given url and start Breadth First Search with Threads and Blocking queue*/
-        new BfsCrawler().crawl(url, page, sitemap, visited, queue);
+        new BasicCrawler().crawl(url, page, sitemap, visited, queue);
 
         /*Step2: Create runnable tasks , so that links can be parsed con currently*/
         List<Runnable> runnables = new ArrayList<>();
         for (int i = 0; i < numberOfThreads; i++) {
-            runnables.add(new CrawlerTask(url, sitemap, visited, queue, new BfsCrawler()));
+            runnables.add(new CrawlerTask(url, sitemap, visited, queue, new BasicCrawler()));
         }
 
         /*Step3: Run all the tasks Asynchronous and concurrently  and wait for all the tasks to be finished successfully*/

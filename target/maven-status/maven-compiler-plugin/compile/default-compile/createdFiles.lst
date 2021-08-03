@@ -1,8 +1,8 @@
-com/crawler/manager/BfsCrawler.class
 com/crawler/manager/Crawler.class
 com/crawler/model/Sitemap.class
 com/crawler/util/HTMLHandler.class
 com/crawler/WebCrawlerApp.class
+com/crawler/manager/BasicCrawler.class
 com/crawler/exception/CrawlerCustomException.class
 com/crawler/util/CrawlerUtils.class
 com/crawler/manager/CrawlerTask.class

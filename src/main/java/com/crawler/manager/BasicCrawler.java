@@ -17,8 +17,13 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.BlockingQueue;
 
-public class BfsCrawler implements Crawler {
-    private static final Logger LOG = LoggerFactory.getLogger(BfsCrawler.class);
+public class BasicCrawler implements Crawler {
+    private static final Logger LOG = LoggerFactory.getLogger(BasicCrawler.class);
+
+    /*
+    * This is BFS algorithm (Breadth first search) to traverse all the nodes of graph using queue
+    * Here we are pushing all the unvisited Url to the queue and poll the unvisited Url from thr queue
+    * */
 
     public void crawl(String initialUrl, Page page, Sitemap sitemap, List<String> visited, BlockingQueue<Page> queue) {
 
