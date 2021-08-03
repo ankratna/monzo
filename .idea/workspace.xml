@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17253db5-8c0c-43a1-954c-b8955e0b0bd2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/crawler/WebCrawlerAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawl-result.html" beforeDir="false" afterPath="$PROJECT_DIR$/crawl-result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crawler/manager/BfsCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/manager/BasicCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crawler/util/CrawlerUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crawler/util/CrawlerUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/WebCrawlerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crawler/WebCrawlerApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/manager/BfsCrawler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/manager/CrawlerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crawler/manager/CrawlerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/util/CrawlerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crawler/util/CrawlerUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/monzo-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/monzo-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/crawler/util/CrawlerUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/crawler/util/CrawlerUtilsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,11 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebCrawlerAppTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebCrawlerAppTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crawler/WebCrawlerAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="260">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="17" column="106" lean-forward="true" selection-start-line="17" selection-start-column="106" selection-end-line="17" selection-end-column="106" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -171,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crawler/manager/CrawlerTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crawler/util/CrawlerUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crawler/WebCrawlerAppTest.java" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -218,107 +219,7 @@
             <path>
               <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
               <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monzo" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monzo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -563,9 +464,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrawlerUtilsTest_sanatizeUrl - 2021.08.03 at 09h 53m 57s.xml">
-      <configuration name="CrawlerUtilsTest.sanatizeUrl" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CrawlerUtilsTest_sanatizeUrl - 2021.08.03 at 09h 54m 13s.xml">
       <configuration name="CrawlerUtilsTest.sanatizeUrl" configurationId="JUnit" />
     </history-entry>
@@ -593,6 +491,9 @@
     <history-entry file="WebCrawlerAppTest_main - 2021.08.03 at 10h 25m 56s.xml">
       <configuration name="WebCrawlerAppTest.main" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WebCrawlerAppTest_main - 2021.08.03 at 10h 40m 53s.xml">
+      <configuration name="WebCrawlerAppTest.main" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-50" width="1920" height="1080" extended-state="0" />
@@ -611,7 +512,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.49185336" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2827476" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2827476" />
       <window_info id="Project Explorer" order="2" weight="0.32960597" />
       <window_info id="Job Explorer" order="2" weight="0.32960597" />
       <window_info anchor="bottom" id="Console" order="10" />
@@ -669,16 +570,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/util/HTMLHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1041,8 +932,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crawler/WebCrawlerAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="260">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="17" column="106" lean-forward="true" selection-start-line="17" selection-start-column="106" selection-end-line="17" selection-end-column="106" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
