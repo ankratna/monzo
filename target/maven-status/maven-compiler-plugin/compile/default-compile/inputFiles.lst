@@ -1,8 +1,11 @@
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/exception/CrawlerCustomException.java
+/Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/manager/CrawlerManager.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/model/Sitemap.java
-/Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/crawlerManager/Crawler.java
-/Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/crawlerManager/CrawlerManager.java
+/Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/manager/CrawlerTask.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/WebCrawlerApp.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/model/Page.java
+/Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/manager/BfsCrawler.java
+/Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/manager/Crawler.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/util/CrawlerUtils.java
+/Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/model/InputArguments.java
 /Users/ankitratnawat/company-coding/monzo/src/main/java/com/crawler/util/HTMLHandler.java

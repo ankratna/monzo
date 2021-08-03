@@ -1,8 +1,11 @@
+com/crawler/manager/BfsCrawler.class
+com/crawler/manager/Crawler.class
 com/crawler/model/Sitemap.class
 com/crawler/util/HTMLHandler.class
-com/crawler/crawlerManager/CrawlerManager.class
 com/crawler/WebCrawlerApp.class
 com/crawler/exception/CrawlerCustomException.class
 com/crawler/util/CrawlerUtils.class
+com/crawler/manager/CrawlerTask.class
 com/crawler/model/Page.class
-com/crawler/crawlerManager/Crawler.class
+com/crawler/manager/CrawlerManager.class
+com/crawler/model/InputArguments.class

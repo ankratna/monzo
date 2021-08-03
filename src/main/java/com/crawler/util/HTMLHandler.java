@@ -61,7 +61,7 @@ public class HTMLHandler {
 		htmlString = htmlString.replace("$url", url);
 		htmlString = htmlString.replace("$body", stringBuilder.toString());
 		try {
-			Files.write(Paths.get("result.html"), htmlString.getBytes());
+			Files.write(Paths.get("crawl-result.html"), htmlString.getBytes());
 		} catch (IOException e) {
 			LOG.error("Could not crete HTML result page!");
 		}
