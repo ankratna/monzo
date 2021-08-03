@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17253db5-8c0c-43a1-954c-b8955e0b0bd2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawl-result.html" beforeDir="false" afterPath="$PROJECT_DIR$/crawl-result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/manager/BasicCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crawler/manager/BasicCrawler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crawler/manager/CrawlerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crawler/manager/CrawlerManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/monzo-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/monzo-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/crawler/WebCrawlerAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/crawler/util/CrawlerUtilsTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="620">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crawler/WebCrawlerAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -101,8 +107,8 @@
         <entry file="file://$PROJECT_DIR$/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="340">
-                <caret line="17" column="106" lean-forward="true" selection-start-line="17" selection-start-column="106" selection-end-line="17" selection-end-column="106" />
+              <first_editor relative-caret-position="320">
+                <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -509,7 +515,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32960597" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="right" id="Run" order="8" weight="0.36102235" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.49185336" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5570265" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.2827476" />
@@ -923,7 +929,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crawler/WebCrawlerApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -933,15 +939,15 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/crawler/WebCrawlerAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="340">
-            <caret line="17" column="106" lean-forward="true" selection-start-line="17" selection-start-column="106" selection-end-line="17" selection-end-column="106" />
+          <first_editor relative-caret-position="320">
+            <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>

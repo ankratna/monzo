@@ -14,5 +14,5 @@ It is Basic crawler use BFS algorithm to crawl any url with given number of Thre
 - {arg2} Number of threads to use. Must be greater than 0
 
 # Example
-`java -jar monzo-1.0-SNAPSHOT-jar-with-dependencies.jar https://monzo.com 20 `
+`java -jar target/monzo-1.0-SNAPSHOT-jar-with-dependencies.jar https://monzo.com 20 `
 This command will crawl the website https://monzo.com with 20 threads and create a crawl-result-html file.
